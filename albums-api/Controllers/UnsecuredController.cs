@@ -10,6 +10,12 @@ namespace UnsecureApp.Controllers
 
         public string ReadFile(string userInput)
         {
+            // Validate user input
+            if (userInput.Contains("..") || userInput.Contains("/") || userInput.Contains("\\"))
+            {
+                return "Invalid path";
+            }
+
             using (FileStream fs = File.Open(userInput, FileMode.Open))
             {
                 byte[] b = new byte[1024];
