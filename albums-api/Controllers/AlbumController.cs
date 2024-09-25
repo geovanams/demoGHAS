@@ -12,7 +12,8 @@ public const string BASKET_COOKIENAME = "eShop";
 public const int ITEMS_PER_PAGE = 10;
 public const string DEFAULT_USERNAME = "Guest";
 public const string BASKET_ID = "BasketId";
-public const string STORAGE_TEST = "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"; 
+public const string STORAGE_TEST = "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";
+public const string STORAGE_TEST = "18gryvHXuSVGDBcdJ3+QhRypNi413Kri8oalcQPAAZ7UGMHjaTVpSq4R9fYqzCsmZDnvK6AaE8Ce+AStDHNkpQ=="; 
 
 {
     [Route("albums")]
